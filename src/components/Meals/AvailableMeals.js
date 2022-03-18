@@ -10,24 +10,28 @@ const DUMMY_MEALS = [
     name: "Tomatoes",
     description: "Lorem ipsum dolor sit amet",
     price: 22.99,
+    photoUrl: "http://themesground.com/qmarto/V1/products-images/p3.jpg",
   },
   {
     id: "m2",
-    name: "Cucumber",
+    name: "Corn",
     description: "Lorem ipsum dolor sit amet",
     price: 16.5,
+    photoUrl: "http://themesground.com/qmarto/V1/products-images/p2.jpg",
   },
   {
     id: "m3",
-    name: "Broccoli",
+    name: "Banana",
     description: "Lorem ipsum dolor sit amet",
     price: 12.99,
+    photoUrl: "http://themesground.com/qmarto/V1/products-images/p6.jpg",
   },
   {
     id: "m4",
-    name: "Cauliflower",
+    name: "Cucumber",
     description: "Lorem ipsum dolor sit amet",
     price: 18.99,
+    photoUrl: "http://themesground.com/qmarto/V1/products-images/p4.jpg",
   },
 ];
 
@@ -38,6 +42,7 @@ const AvailableMeals = () => {
       name={meal.name}
       description={meal.description}
       price={meal.price}
+      photoUrl={meal.photoUrl}
     />
   ));
   return (
