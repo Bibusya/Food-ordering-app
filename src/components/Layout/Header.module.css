@@ -1,0 +1,38 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6rem;
+  background-color: #ffffffdc;
+  color: #59c55e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3% 0 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  font-size: 1.5rem;
+}
+
+.header h1 {
+  cursor: pointer;
+}
+
+.header h1:hover {
+  color: #189c1f;
+}
+
+.main-image {
+  width: 100%;
+  height: 30rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotateZ(-3deg) translateY(-4rem) translateX(-1rem);
+}

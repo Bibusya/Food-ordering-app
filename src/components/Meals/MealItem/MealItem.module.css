@@ -1,0 +1,27 @@
+.meal {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+}
+
+.meal h3 {
+  margin: 0 0 0.25rem 0;
+  font-weight: 400;
+  color: #51b156;
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+  font-weight: 400;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
