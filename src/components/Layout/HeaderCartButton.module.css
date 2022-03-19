@@ -12,11 +12,16 @@
   font-family: "Oswald", sans-serif;
   font-size: 1.2rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  -webkit-transform: scale(1);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .button:hover,
 .button:active {
   background-color: #189c1f;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .icon {

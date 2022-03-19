@@ -17,10 +17,15 @@
 
 .header h1 {
   cursor: pointer;
+  -webkit-transform: scale(1);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .header h1:hover {
   color: #189c1f;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .main-image {
