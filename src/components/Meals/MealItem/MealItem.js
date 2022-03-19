@@ -6,7 +6,6 @@ import Card from "../../UI/Card.js";
 
 const MealItem = (props) => {
   const price = `$ ${props.price.toFixed(2)}`;
-  // console.log(props.id);
   return (
     <li className={classes.meal}>
       <div>
@@ -19,9 +18,9 @@ const MealItem = (props) => {
       <div>
         <MealItemForm id={props.id} />
       </div>
-      <Card className={classes.previewImage}>
+      <div className={classes.previewImage}>
         <img src={props.photoUrl} />
-      </Card>
+      </div>
     </li>
   );
 };

@@ -41,6 +41,8 @@
   height: 11rem;
   overflow: hidden;
   cursor: pointer;
+  border: 1px solid #70f877;
+  border-radius: 1rem;
 }
 
 .previewImage img {

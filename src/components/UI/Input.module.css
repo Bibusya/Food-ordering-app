@@ -15,5 +15,10 @@
   border-radius: 5px;
   border: 1px solid #ccc;
   font: inherit;
-  padding-left: 0.5rem;
+  font-size: 1.3rem;
+  padding: 0.2rem 0 0.2rem 0.7rem;
+}
+
+.input input:focus {
+  outline: none;
 }
